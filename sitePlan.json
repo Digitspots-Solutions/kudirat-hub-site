@@ -1,0 +1,42 @@
+{
+  "businessName": "Kudirat Hub",
+  "industry": "Fashion and Creative Design",
+  "tone": "creative and stylish",
+  "tagline": "Where Fashion Meets Creativity",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "Welcome to Kudirat Hub - Your Premier Fashion and Creative Design Destination in Bariga. We bring your style vision to life with exceptional craftsmanship and innovative design solutions. From bespoke fashion pieces to creative design services, we're your trusted partner for all things style.",
+      "imagePrompt": "Vibrant Nigerian fashion design studio with colorful African print fabrics, modern sewing equipment, creative workspace with fashion sketches on the wall, warm natural lighting streaming through windows, Lagos urban creative space aesthetic, professional yet inviting atmosphere",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "Kudirat Hub is a leading fashion and creative design center located in the heart of Bariga, Shomolu LCDA. We specialize in bringing your fashion dreams to reality through expert tailoring, innovative design concepts, and personalized creative solutions. Our team combines traditional craftsmanship with contemporary design trends to deliver exceptional results for every client. Whether you need custom-made outfits, fashion consulting, or creative design services, we provide quality that speaks for itself.",
+      "imagePrompt": "Modern Nigerian fashion boutique interior showcasing elegant fabric displays, professional tailoring workspace, diverse collection of African and contemporary fashion designs, creative mood boards, warm ambient lighting, authentic Lagos fashion hub atmosphere",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "Custom Fashion Design & Tailoring - Transform your ideas into stunning custom-made outfits with perfect fit and finish. From traditional Nigerian attire to contemporary fashion pieces.\n\nCreative Design Solutions - Innovative design services for fashion brands, personal styling, and creative projects that make you stand out.\n\nFashion Consulting - Expert advice on style, fabric selection, and wardrobe planning to elevate your personal or brand image.\n\nAlterations & Repairs - Professional clothing alterations and repairs to keep your favorite pieces looking perfect.\n\nEvent Fashion - Specialized designs for weddings, corporate events, and special occasions that leave lasting impressions.",
+      "imagePrompt": "Collage of Nigerian fashion services: skilled tailor taking measurements, beautiful custom-made aso-ebi outfits on display, fashion consultation session, creative design process with fabric swatches, elegant finished garments on mannequins, professional Lagos fashion studio setting",
+      "layout": "grid"
+    },
+    {
+      "id": "contact",
+      "name": "Visit Us Today",
+      "copy": "Ready to bring your fashion vision to life? Visit Kudirat Hub today or reach out to discuss your design needs. We're conveniently located in Bariga and ready to serve you with excellence.\n\nAddress: 27/30 Fetuga Street, Bariga Lady-lak, Shomolu/Bariga LCDA, Lagos, Nigeria\n\nPhone: 0802 811 6676\n\nOpen for walk-ins and by appointment. Contact us now to schedule your consultation!",
+      "imagePrompt": "Welcoming Nigerian fashion studio storefront with clear signage, inviting entrance with fabric displays visible through windows, Bariga Lagos street scene with vibrant neighborhood atmosphere, professional yet accessible business setting, daytime natural lighting",
+      "layout": "centered"
+    }
+  ],
+  "contact": {
+    "phone": "0802 811 6676",
+    "email": "",
+    "address": "27/30 Fetuga Street, Bariga Lady-lak, Shomolu/Bariga LCDA, Lagos, Nigeria",
+    "whatsapp": "https://wa.me/2348028116676"
+  }
+}
