@@ -1,41 +1,48 @@
 {
-  "businessName": "Kudirat Hub",
-  "industry": "Fashion and Creative Design",
-  "tone": "creative and stylish",
-  "tagline": "Where Fashion Meets Creativity",
+  "businessName": "UC Beauty Place Crypto Compliance Co",
+  "industry": "Fintech - Digital Assets & Compliance",
+  "tone": "Professional, authoritative, trustworthy",
+  "tagline": "Your Trusted Partner in Digital Asset Compliance and Crypto Solutions",
   "sections": [
     {
       "id": "hero",
       "name": "Hero",
-      "copy": "Welcome to Kudirat Hub - Your Premier Fashion and Creative Design Destination in Bariga. We bring your style vision to life with exceptional craftsmanship and innovative design solutions. From bespoke fashion pieces to creative design services, we're your trusted partner for all things style.",
-      "imagePrompt": "Vibrant Nigerian fashion design studio with colorful African print fabrics, modern sewing equipment, creative workspace with fashion sketches on the wall, warm natural lighting streaming through windows, Lagos urban creative space aesthetic, professional yet inviting atmosphere",
+      "copy": "Navigate the Future of Digital Finance with Confidence. UC Beauty Place Crypto Compliance Co provides expert digital asset management, blockchain compliance solutions, and cryptocurrency consulting services for businesses and individuals across Nigeria. Licensed, regulated, and committed to your financial security.",
+      "imagePrompt": "Modern Nigerian fintech office with glass walls, professional African business people analyzing cryptocurrency charts on large monitors, Lagos skyline visible through windows, sleek blue and gold color scheme, photorealistic, bright natural lighting, professional corporate atmosphere",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "Kudirat Hub is a leading fashion and creative design center located in the heart of Bariga, Shomolu LCDA. We specialize in bringing your fashion dreams to reality through expert tailoring, innovative design concepts, and personalized creative solutions. Our team combines traditional craftsmanship with contemporary design trends to deliver exceptional results for every client. Whether you need custom-made outfits, fashion consulting, or creative design services, we provide quality that speaks for itself.",
-      "imagePrompt": "Modern Nigerian fashion boutique interior showcasing elegant fabric displays, professional tailoring workspace, diverse collection of African and contemporary fashion designs, creative mood boards, warm ambient lighting, authentic Lagos fashion hub atmosphere",
+      "copy": "UC Beauty Place Crypto Compliance Co (also operating as UC Beauty Place Digital Assets Limited) is a leading fintech firm based in Lagos, Nigeria, specializing in cryptocurrency compliance, digital lending solutions, and blockchain advisory services. Founded and led by experienced Digital Lending Analysts, we bridge the gap between traditional finance and the emerging digital asset ecosystem. Our mission is to provide Nigerian businesses and individuals with secure, compliant pathways to participate in the global cryptocurrency economy. We combine deep regulatory knowledge with practical fintech expertise to deliver solutions that protect your interests while maximizing opportunities in digital finance.",
+      "imagePrompt": "Professional African fintech team in modern Lagos office, diverse group of analysts working with laptops and financial documents, digital screens showing blockchain networks, warm professional lighting, contemporary Nigerian business environment, photorealistic",
       "layout": "split"
     },
     {
       "id": "services",
       "name": "Our Services",
-      "copy": "Custom Fashion Design & Tailoring - Transform your ideas into stunning custom-made outfits with perfect fit and finish. From traditional Nigerian attire to contemporary fashion pieces.\n\nCreative Design Solutions - Innovative design services for fashion brands, personal styling, and creative projects that make you stand out.\n\nFashion Consulting - Expert advice on style, fabric selection, and wardrobe planning to elevate your personal or brand image.\n\nAlterations & Repairs - Professional clothing alterations and repairs to keep your favorite pieces looking perfect.\n\nEvent Fashion - Specialized designs for weddings, corporate events, and special occasions that leave lasting impressions.",
-      "imagePrompt": "Collage of Nigerian fashion services: skilled tailor taking measurements, beautiful custom-made aso-ebi outfits on display, fashion consultation session, creative design process with fabric swatches, elegant finished garments on mannequins, professional Lagos fashion studio setting",
+      "copy": "**Crypto Compliance Consulting** - Navigate Nigeria's evolving cryptocurrency regulations with expert guidance. We ensure your digital asset operations meet all CBN and SEC Nigeria requirements.\n\n**Digital Lending Solutions** - Access cryptocurrency-backed loans and digital asset financing options tailored to Nigerian market conditions and regulatory frameworks.\n\n**Blockchain Advisory** - Strategic consulting for businesses looking to integrate blockchain technology, from initial assessment to full implementation.\n\n**Digital Asset Management** - Professional custody and management services for your cryptocurrency portfolio with institutional-grade security.\n\n**Regulatory Reporting** - Comprehensive compliance reporting and documentation services to keep your digital asset operations audit-ready.\n\n**KYC/AML Solutions** - Advanced Know Your Customer and Anti-Money Laundering systems designed for cryptocurrency businesses operating in Nigeria.",
+      "imagePrompt": "Split screen showing cryptocurrency symbols (Bitcoin, Ethereum) on one side and Nigerian business professionals in suits reviewing compliance documents on the other, modern fintech office setting, blue and gold accent colors, professional photography, high detail",
       "layout": "grid"
     },
     {
+      "id": "why-choose",
+      "name": "Why Choose Us",
+      "copy": "**Nigerian Market Expertise** - We understand the unique challenges and opportunities of operating in Nigeria's digital asset space, from regulatory compliance to local payment integration.\n\n**Experienced Leadership** - Led by certified Digital Lending Analysts with proven track records in both traditional finance and cryptocurrency markets.\n\n**Regulatory Compliance** - We stay ahead of CBN, SEC Nigeria, and international cryptocurrency regulations to keep your operations compliant and secure.\n\n**Personalized Service** - Every client receives customized solutions tailored to their specific needs, whether you're an individual investor or a corporate entity.\n\n**Security First** - We employ bank-level security protocols and industry best practices to protect your digital assets and sensitive financial information.\n\n**Local Presence** - Based in Shomolu/Bariga LCDA, Lagos, we're accessible and responsive to our clients throughout Nigeria.",
+      "imagePrompt": "Modern security vault with digital locks and cryptocurrency symbols, Nigerian professional shaking hands with client in foreground, Lagos business district visible through window, trust and security theme, photorealistic, professional corporate photography",
+      "layout": "cards"
+    },
+    {
       "id": "contact",
-      "name": "Visit Us Today",
-      "copy": "Ready to bring your fashion vision to life? Visit Kudirat Hub today or reach out to discuss your design needs. We're conveniently located in Bariga and ready to serve you with excellence.\n\nAddress: 27/30 Fetuga Street, Bariga Lady-lak, Shomolu/Bariga LCDA, Lagos, Nigeria\n\nPhone: 0802 811 6676\n\nOpen for walk-ins and by appointment. Contact us now to schedule your consultation!",
-      "imagePrompt": "Welcoming Nigerian fashion studio storefront with clear signage, inviting entrance with fabric displays visible through windows, Bariga Lagos street scene with vibrant neighborhood atmosphere, professional yet accessible business setting, daytime natural lighting",
+      "name": "Get Started Today",
+      "copy": "Ready to navigate the digital asset landscape with confidence? Contact UC Beauty Place Crypto Compliance Co for a consultation. Whether you need compliance guidance, digital lending solutions, or comprehensive cryptocurrency advisory services, our team is here to help.\n\n**Visit Our Office:**\n27/30 Fetuga Street, Bariga Lady-lak\nShomolu/Bariga LCDA, Lagos, Nigeria\n\n**Call Us:**\n+234 802 811 6676\n\n**Business Hours:**\nMonday - Friday: 9:00 AM - 5:00 PM\nSaturday: 10:00 AM - 2:00 PM\n\nSchedule a free initial consultation to discuss your digital asset needs. We serve clients across Lagos and throughout Nigeria.",
+      "imagePrompt": "Welcoming Nigerian fintech office reception area, professional African receptionist at modern desk, cryptocurrency artwork on walls, natural light through large windows, Lagos urban setting visible outside, warm professional atmosphere, photorealistic",
       "layout": "centered"
     }
   ],
   "contact": {
-    "phone": "0802 811 6676",
-    "email": "",
+    "phone": "+234 802 811 6676",
+    "email": "info@ucbeautyplace.com",
     "address": "27/30 Fetuga Street, Bariga Lady-lak, Shomolu/Bariga LCDA, Lagos, Nigeria",
     "whatsapp": "https://wa.me/2348028116676"
   }
