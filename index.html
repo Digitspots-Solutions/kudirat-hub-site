@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kudirat Hub - Where Fashion Meets Creativity</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Karla:wght@300;400;500&display=swap">
+    <title>UC Beauty Place Crypto Compliance Co - Your Trusted Partner in Digital Asset Compliance</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Manrope:wght@300;400;500&display=swap">
     <style>
         :root {
-            --color-primary: #101010;
-            --color-accent: #b9fe00;
-            --color-bg: #FFFFFF;
-            --color-text: #0A0A0A;
-            --color-surface: #1a1a1a;
-            --color-secondary-accent: #f82b10;
-            --font-display: 'Oswald', sans-serif;
-            --font-body: 'Karla', sans-serif;
-            --border-radius: 0px;
+            --color-primary: #06112f;
+            --color-accent: #1274c5;
+            --color-bg: #F2F6FC;
+            --color-text: #081A40;
+            --color-surface: #11274e;
+            --color-secondary-accent: #259c5c;
+            --font-display: 'Outfit', sans-serif;
+            --font-body: 'Manrope', sans-serif;
+            --border-radius: 16px;
         }
 
         * {
@@ -31,16 +31,13 @@
         body {
             font-family: var(--font-body);
             color: var(--color-text);
-            background: var(--color-bg);
+            background-color: var(--color-bg);
             line-height: 1.6;
-            overflow-x: hidden;
         }
 
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-display);
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-weight: 600;
         }
 
         @keyframes fadeUp {
@@ -58,16 +55,16 @@
         nav {
             position: sticky;
             top: 0;
-            z-index: 1000;
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(242, 246, 252, 0.95);
             backdrop-filter: blur(10px);
-            box-shadow: 0 4px 0 var(--color-primary);
-            padding: 1rem 2rem;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(6, 17, 47, 0.1);
         }
 
         .nav-container {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 1rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -75,10 +72,9 @@
 
         .logo {
             font-family: var(--font-display);
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             font-weight: 700;
             color: var(--color-primary);
-            text-shadow: 3px 3px 0 var(--color-accent);
         }
 
         .nav-links {
@@ -91,33 +87,13 @@
             text-decoration: none;
             color: var(--color-text);
             font-weight: 500;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            letter-spacing: 0.5px;
-            transition: all 0.2s ease;
-            position: relative;
+            transition: color 0.3s ease;
         }
 
         .nav-links a:hover {
-            color: var(--color-primary);
+            color: var(--color-accent);
         }
 
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--color-accent);
-            transition: width 0.3s ease;
-        }
-
-        .nav-links a:hover::after {
-            width: 100%;
-        }
-
-        /* Mobile Menu Button */
         .mobile-menu-btn {
             display: none;
             flex-direction: column;
@@ -145,7 +121,6 @@
             transform: rotate(-45deg) translate(6px, -6px);
         }
 
-        /* Mobile Menu */
         .mobile-menu {
             position: fixed;
             top: 70px;
@@ -153,7 +128,7 @@
             width: 300px;
             height: calc(100vh - 70px);
             background: var(--color-bg);
-            box-shadow: -4px 0 0 var(--color-primary);
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
             transition: right 0.3s ease;
             z-index: 999;
             padding: 2rem;
@@ -176,11 +151,9 @@
             color: var(--color-text);
             font-size: 1.1rem;
             font-weight: 500;
-            text-transform: uppercase;
             transition: color 0.3s ease;
             display: block;
             padding: 0.5rem 0;
-            letter-spacing: 0.5px;
         }
 
         .mobile-menu ul a:hover {
@@ -195,6 +168,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
+            color: white;
             overflow: hidden;
             animation: fadeUp 0.6s ease forwards;
         }
@@ -206,7 +180,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            z-index: 0;
+            z-index: -2;
         }
 
         .hero-overlay {
@@ -216,82 +190,75 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.55);
-            z-index: 1;
-        }
-
-        .hero-overlay::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b9fe00' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            opacity: 0.03;
+            z-index: -1;
         }
 
         .hero-content {
-            position: relative;
-            z-index: 2;
             max-width: 900px;
             padding: 0 2rem;
         }
 
         .hero-content h1 {
-            font-size: 4.5rem;
-            color: var(--color-bg);
-            text-shadow: 5px 5px 0 var(--color-accent);
-            margin-bottom: 1rem;
-            line-height: 1.1;
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
         }
 
-        .hero-tagline {
-            font-size: 1.5rem;
-            color: var(--color-accent);
-            font-weight: 500;
-            margin-bottom: 1rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        .hero-text {
-            font-size: 1.1rem;
-            color: var(--color-bg);
+        .hero-content p {
+            font-size: 1.25rem;
             margin-bottom: 2rem;
             line-height: 1.8;
         }
 
-        .cta-btn {
+        .cta-button {
             display: inline-block;
             padding: 1rem 2.5rem;
             background: var(--color-accent);
-            color: var(--color-primary);
+            color: white;
             text-decoration: none;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            border: none;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            box-shadow: 4px 4px 0 var(--color-primary);
-            font-size: 1rem;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(18, 116, 197, 0.3);
         }
 
-        .cta-btn:hover {
-            transform: translate(2px, 2px);
-            box-shadow: 2px 2px 0 var(--color-primary);
+        .cta-button:hover {
+            background: var(--color-primary);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(18, 116, 197, 0.4);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 80px 2rem;
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        section:nth-child(2) { animation-delay: 0.1s; }
+        section:nth-child(3) { animation-delay: 0.2s; }
+        section:nth-child(4) { animation-delay: 0.3s; }
+        section:nth-child(5) { animation-delay: 0.4s; }
+        section:nth-child(6) { animation-delay: 0.5s; }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            color: var(--color-primary);
         }
 
         /* About Section */
         #about {
-            padding: 80px 2rem;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.1s;
+            background: white;
         }
 
-        .about-container {
-            max-width: 1400px;
-            margin: 0 auto;
+        .about-split {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
@@ -300,181 +267,216 @@
 
         .about-image {
             width: 100%;
-            height: 600px;
+            height: 500px;
             object-fit: cover;
-            box-shadow: 8px 8px 0 var(--color-primary);
+            border-radius: var(--border-radius);
+            box-shadow: 0 10px 30px rgba(6, 17, 47, 0.15);
         }
 
-        .about-content h2 {
-            font-size: 3rem;
-            color: var(--color-primary);
-            margin-bottom: 1.5rem;
-            text-shadow: 3px 3px 0 var(--color-accent);
-        }
-
-        .about-content p {
+        .about-text {
             font-size: 1.1rem;
             line-height: 1.8;
-            margin-bottom: 1.5rem;
         }
 
         /* Services Section */
         #services {
-            padding: 80px 2rem;
-            background: var(--color-surface);
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.2s;
-        }
-
-        .services-container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .services-container h2 {
-            font-size: 3rem;
-            color: var(--color-bg);
-            text-align: center;
-            margin-bottom: 3rem;
-            text-shadow: 3px 3px 0 var(--color-accent);
+            background: var(--color-bg);
         }
 
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
+            margin-top: 3rem;
         }
 
         .service-card {
-            background: var(--color-bg);
-            padding: 2rem;
-            border-left: 6px solid var(--color-accent);
-            box-shadow: 6px 6px 0 rgba(185, 254, 0, 0.2);
+            background: white;
+            padding: 2.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 20px rgba(6, 17, 47, 0.08);
             transition: all 0.3s ease;
         }
 
         .service-card:hover {
-            transform: translate(-2px, -2px);
-            box-shadow: 8px 8px 0 rgba(185, 254, 0, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(6, 17, 47, 0.15);
+        }
+
+        .service-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, var(--color-accent), var(--color-primary));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
         }
 
         .service-card h3 {
             font-size: 1.5rem;
-            color: var(--color-primary);
             margin-bottom: 1rem;
+            color: var(--color-primary);
         }
 
         .service-card p {
-            font-size: 1rem;
+            color: var(--color-text);
+            line-height: 1.7;
+        }
+
+        /* Why Choose Section */
+        #why-choose {
+            background: white;
+        }
+
+        .why-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .why-card {
+            background: var(--color-bg);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--color-accent);
+            transition: all 0.3s ease;
+        }
+
+        .why-card:hover {
+            border-left-color: var(--color-secondary-accent);
+            box-shadow: 0 4px 20px rgba(6, 17, 47, 0.1);
+        }
+
+        .why-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
+        }
+
+        .why-card p {
+            color: var(--color-text);
             line-height: 1.7;
         }
 
         /* Contact Section */
         #contact {
-            padding: 80px 2rem;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.3s;
+            background: var(--color-primary);
+            color: white;
+        }
+
+        #contact h2 {
+            color: white;
+        }
+
+        .contact-content {
+            max-width: 800px;
+            margin: 0 auto;
             text-align: center;
         }
 
-        .contact-container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .contact-container h2 {
-            font-size: 3rem;
-            color: var(--color-primary);
-            margin-bottom: 2rem;
-            text-shadow: 3px 3px 0 var(--color-accent);
-        }
-
-        .contact-text {
+        .contact-content p {
             font-size: 1.1rem;
-            line-height: 1.8;
             margin-bottom: 2rem;
+            line-height: 1.8;
         }
 
-        .contact-details {
-            background: var(--color-surface);
+        .contact-info {
+            background: rgba(255, 255, 255, 0.1);
             padding: 2rem;
-            margin-top: 2rem;
-            box-shadow: 6px 6px 0 var(--color-primary);
+            border-radius: var(--border-radius);
+            margin: 2rem 0;
+            text-align: left;
         }
 
-        .contact-item {
+        .contact-info h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-accent);
+        }
+
+        .contact-info p {
             margin-bottom: 1.5rem;
-            color: var(--color-bg);
+            font-size: 1rem;
         }
 
-        .contact-item strong {
-            color: var(--color-accent);
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+        .contact-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
         }
 
-        .contact-item a {
-            color: var(--color-accent);
+        .contact-btn {
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius);
             text-decoration: none;
-            font-weight: 500;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
         }
 
-        .contact-item a:hover {
-            text-decoration: underline;
+        .contact-btn.phone {
+            background: var(--color-accent);
+            color: white;
         }
 
-        /* WhatsApp Floating Button */
+        .contact-btn.phone:hover {
+            background: var(--color-secondary-accent);
+        }
+
+        .contact-btn.email {
+            background: white;
+            color: var(--color-primary);
+        }
+
+        .contact-btn.email:hover {
+            background: var(--color-bg);
+        }
+
+        /* WhatsApp Float Button */
         .whatsapp-float {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background: #25D366;
-            color: white;
             width: 60px;
             height: 60px;
+            background: #25D366;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
-            box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
             z-index: 999;
-            text-decoration: none;
             transition: all 0.3s ease;
+            text-decoration: none;
+            font-size: 2rem;
         }
 
         .whatsapp-float:hover {
             transform: scale(1.1);
-            box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.4);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
         }
 
         /* Footer */
         footer {
-            background: var(--color-primary);
-            color: var(--color-bg);
+            background: var(--color-surface);
+            color: white;
             text-align: center;
             padding: 2rem;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.4s;
         }
 
         footer p {
-            font-size: 0.9rem;
-            letter-spacing: 0.5px;
+            margin: 0;
         }
 
         /* Responsive */
-        @media (max-width: 1024px) {
-            .hero-content h1 {
-                font-size: 3.5rem;
-            }
-
-            .about-container {
-                gap: 3rem;
-            }
-        }
-
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -485,51 +487,55 @@
             }
 
             .hero-content h1 {
-                font-size: 2.5rem;
-                text-shadow: 3px 3px 0 var(--color-accent);
+                font-size: 2rem;
             }
 
-            .hero-tagline {
-                font-size: 1.2rem;
-            }
-
-            .hero-text {
+            .hero-content p {
                 font-size: 1rem;
             }
 
-            .about-container {
+            h2 {
+                font-size: 2rem;
+            }
+
+            .about-split {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
             .about-image {
-                height: 400px;
-                box-shadow: 6px 6px 0 var(--color-primary);
+                height: 300px;
             }
 
-            .about-content h2,
-            .services-container h2,
-            .contact-container h2 {
-                font-size: 2rem;
-            }
-
-            #hero,
-            #about,
-            #services,
-            #contact {
+            section {
                 padding: 48px 1.5rem;
             }
 
-            .services-grid {
+            .services-grid,
+            .why-cards {
                 grid-template-columns: 1fr;
+            }
+
+            .contact-buttons {
+                flex-direction: column;
             }
 
             .whatsapp-float {
                 width: 50px;
                 height: 50px;
-                font-size: 1.5rem;
                 bottom: 20px;
                 right: 20px;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .services-grid,
+            .why-cards {
+                grid-template-columns: repeat(2, 1fr);
             }
         }
     </style>
@@ -537,11 +543,12 @@
 <body>
     <nav>
         <div class="nav-container">
-            <div class="logo">KUDIRAT HUB</div>
+            <div class="logo">UC Beauty Place</div>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose">Why Choose Us</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu-btn">
@@ -557,90 +564,135 @@
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#why-choose">Why Choose Us</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
     <section id="hero">
-        <img src="https://images.pexels.com/photos/35689783/pexels-photo-35689783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Kudirat Hub Fashion Studio" class="hero-bg">
+        <img src="https://images.pexels.com/photos/34823912/pexels-photo-34823912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="UC Beauty Place Crypto Compliance" class="hero-bg">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>KUDIRAT HUB</h1>
-            <div class="hero-tagline">Where Fashion Meets Creativity</div>
-            <p class="hero-text">Welcome to Kudirat Hub - Your Premier Fashion and Creative Design Destination in Bariga. We bring your style vision to life with exceptional craftsmanship and innovative design solutions. From bespoke fashion pieces to creative design services, we're your trusted partner for all things style.</p>
-            <a href="#contact" class="cta-btn">Get Started</a>
+            <h1>UC Beauty Place Crypto Compliance Co</h1>
+            <p>Navigate the Future of Digital Finance with Confidence. UC Beauty Place Crypto Compliance Co provides expert digital asset management, blockchain compliance solutions, and cryptocurrency consulting services for businesses and individuals across Nigeria. Licensed, regulated, and committed to your financial security.</p>
+            <a href="#contact" class="cta-button">Get Started Today</a>
         </div>
     </section>
 
     <section id="about">
-        <div class="about-container">
-            <img src="https://images.pexels.com/photos/19599222/pexels-photo-19599222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Kudirat Hub Studio" class="about-image">
-            <div class="about-content">
-                <h2>About Us</h2>
-                <p>Kudirat Hub is a leading fashion and creative design center located in the heart of Bariga, Shomolu LCDA. We specialize in bringing your fashion dreams to reality through expert tailoring, innovative design concepts, and personalized creative solutions. Our team combines traditional craftsmanship with contemporary design trends to deliver exceptional results for every client. Whether you need custom-made outfits, fashion consulting, or creative design services, we provide quality that speaks for itself.</p>
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-split">
+                <img src="https://images.pexels.com/photos/9301314/pexels-photo-9301314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="UC Beauty Place Team" class="about-image">
+                <div class="about-text">
+                    <p>UC Beauty Place Crypto Compliance Co (also operating as UC Beauty Place Digital Assets Limited) is a leading fintech firm based in Lagos, Nigeria, specializing in cryptocurrency compliance, digital lending solutions, and blockchain advisory services. Founded and led by experienced Digital Lending Analysts, we bridge the gap between traditional finance and the emerging digital asset ecosystem. Our mission is to provide Nigerian businesses and individuals with secure, compliant pathways to participate in the global cryptocurrency economy. We combine deep regulatory knowledge with practical fintech expertise to deliver solutions that protect your interests while maximizing opportunities in digital finance.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="services">
-        <div class="services-container">
+        <div class="container">
             <h2>Our Services</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Custom Fashion Design & Tailoring</h3>
-                    <p>Transform your ideas into stunning custom-made outfits with perfect fit and finish. From traditional Nigerian attire to contemporary fashion pieces.</p>
+                    <div class="service-icon">🛡️</div>
+                    <h3>Crypto Compliance Consulting</h3>
+                    <p>Navigate Nigeria's evolving cryptocurrency regulations with expert guidance. We ensure your digital asset operations meet all CBN and SEC Nigeria requirements.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Creative Design Solutions</h3>
-                    <p>Innovative design services for fashion brands, personal styling, and creative projects that make you stand out.</p>
+                    <div class="service-icon">💰</div>
+                    <h3>Digital Lending Solutions</h3>
+                    <p>Access cryptocurrency-backed loans and digital asset financing options tailored to Nigerian market conditions and regulatory frameworks.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Fashion Consulting</h3>
-                    <p>Expert advice on style, fabric selection, and wardrobe planning to elevate your personal or brand image.</p>
+                    <div class="service-icon">🔗</div>
+                    <h3>Blockchain Advisory</h3>
+                    <p>Strategic consulting for businesses looking to integrate blockchain technology, from initial assessment to full implementation.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Alterations & Repairs</h3>
-                    <p>Professional clothing alterations and repairs to keep your favorite pieces looking perfect.</p>
+                    <div class="service-icon">📊</div>
+                    <h3>Digital Asset Management</h3>
+                    <p>Professional custody and management services for your cryptocurrency portfolio with institutional-grade security.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Event Fashion</h3>
-                    <p>Specialized designs for weddings, corporate events, and special occasions that leave lasting impressions.</p>
+                    <div class="service-icon">📋</div>
+                    <h3>Regulatory Reporting</h3>
+                    <p>Comprehensive compliance reporting and documentation services to keep your digital asset operations audit-ready.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✅</div>
+                    <h3>KYC/AML Solutions</h3>
+                    <p>Advanced Know Your Customer and Anti-Money Laundering systems designed for cryptocurrency businesses operating in Nigeria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-choose">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <div class="why-cards">
+                <div class="why-card">
+                    <h3>Nigerian Market Expertise</h3>
+                    <p>We understand the unique challenges and opportunities of operating in Nigeria's digital asset space, from regulatory compliance to local payment integration.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Experienced Leadership</h3>
+                    <p>Led by certified Digital Lending Analysts with proven track records in both traditional finance and cryptocurrency markets.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Regulatory Compliance</h3>
+                    <p>We stay ahead of CBN, SEC Nigeria, and international cryptocurrency regulations to keep your operations compliant and secure.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Personalized Service</h3>
+                    <p>Every client receives customized solutions tailored to their specific needs, whether you're an individual investor or a corporate entity.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Security First</h3>
+                    <p>We employ bank-level security protocols and industry best practices to protect your digital assets and sensitive financial information.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Local Presence</h3>
+                    <p>Based in Shomolu/Bariga LCDA, Lagos, we're accessible and responsive to our clients throughout Nigeria.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="contact">
-        <div class="contact-container">
-            <h2>Visit Us Today</h2>
-            <p class="contact-text">Ready to bring your fashion vision to life? Visit Kudirat Hub today or reach out to discuss your design needs. We're conveniently located in Bariga and ready to serve you with excellence.</p>
-            <div class="contact-details">
-                <div class="contact-item">
-                    <strong>Address:</strong><br>
-                    27/30 Fetuga Street, Bariga Lady-lak, Shomolu/Bariga LCDA, Lagos, Nigeria
+        <div class="container">
+            <div class="contact-content">
+                <h2>Get Started Today</h2>
+                <p>Ready to navigate the digital asset landscape with confidence? Contact UC Beauty Place Crypto Compliance Co for a consultation. Whether you need compliance guidance, digital lending solutions, or comprehensive cryptocurrency advisory services, our team is here to help.</p>
+                
+                <div class="contact-info">
+                    <h3>Visit Our Office:</h3>
+                    <p>27/30 Fetuga Street, Bariga Lady-lak<br>Shomolu/Bariga LCDA, Lagos, Nigeria</p>
+                    
+                    <h3>Call Us:</h3>
+                    <p>+234 802 811 6676</p>
+                    
+                    <h3>Business Hours:</h3>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 10:00 AM - 2:00 PM</p>
                 </div>
-                <div class="contact-item">
-                    <strong>Phone:</strong><br>
-                    <a href="tel:08028116676">0802 811 6676</a>
-                </div>
-                <div class="contact-item">
-                    <strong>Open for walk-ins and by appointment.</strong><br>
-                    Contact us now to schedule your consultation!
+
+                <p>Schedule a free initial consultation to discuss your digital asset needs. We serve clients across Lagos and throughout Nigeria.</p>
+
+                <div class="contact-buttons">
+                    <a href="tel:+2348028116676" class="contact-btn phone">📞 Call Now</a>
+                    <a href="mailto:info@ucbeautyplace.com" class="contact-btn email">✉️ Email Us</a>
                 </div>
             </div>
-            <a href="https://wa.me/2348028116676" class="cta-btn" style="margin-top: 2rem;">WhatsApp Us</a>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Kudirat Hub. All Rights Reserved.</p>
+        <p>&copy; 2024 UC Beauty Place Crypto Compliance Co. All rights reserved.</p>
     </footer>
 
-    <a href="https://wa.me/2348028116676" class="whatsapp-float" target="_blank" rel="noopener">
-        <svg width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-        </svg>
-    </a>
+    <a href="https://wa.me/2348028116676" class="whatsapp-float" target="_blank" rel="noopener">💬</a>
 
     <script>
         // Mobile menu toggle
